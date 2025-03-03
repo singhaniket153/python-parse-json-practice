@@ -18,7 +18,7 @@ class CountryEncoder(json.JSONEncoder):
                 "languages": o.languages
             }
         else:
-            # Base class will raise the TypeError.
+            # Base class will raise the TypeError. //sample comment
             return super().default(o)
 
 
